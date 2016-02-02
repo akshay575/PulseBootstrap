@@ -22,22 +22,23 @@
 		
 	</head>
 	<body>
+		<!-- Navigation Header -->
+
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
-
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-header" aria-expanded="false">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="#" class="navbar-brand">PULSE</a><img class="navbar-brand navbar-brand-logo" src="img/icon.svg" alt="Pulse Logo" >
-				</div>
+					<a href="#" class="navbar-brand">PULSE </a><img class="navbar-brand navbar-brand-logo" src="img/icon.svg" alt="Pulse Logo" >
+				</div> <!-- navbar-header end --> 
 				
 				<div class="collapse navbar-collapse navbar-responsive-collapse" id="main-header">
 					<ul class="nav navbar-nav navbar-left">
 						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="#">Features</a></li>
+						<li class="active"><a href="features.html">Features</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services <span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -54,16 +55,20 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#"><strong>Login</strong></a></li>
 					</ul>
-					<form action="" class="navbar-form navbar-left" role="search">
+					<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Search">
 							<button type="button" class="btn btn-default" aria-label="Submit Search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
 						</div>
-					</form>
-				</div>
-			</div>
+					</form> <!-- navbar-form end -->
+				</div> <!-- navbar-collapse end -->
+			</div> <!-- container_fluid end -->
 		</nav><!-- Navbar End -->
-		<div class="container">
+
+		<div class="container-fluid">
+
+			<!-- Carousel Slideshow -->
+
 			<div class="carousel slide" id="myCarousel" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -96,7 +101,7 @@
 							<p>This is just a sample headline for testing</p>
 						</div>
 					</div>
-				</div>
+				</div> <!-- carousel-inner end -->
 				<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
@@ -104,16 +109,20 @@
 				<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only"></span>
 				</a>
-			</div><!-- Carousel End -->
+			</div><!-- carousel end -->
 
 			<div class="alert alert-success alert-dismissible fade in" id="alertBox">
 					<button type="button" class="close" data-dismiss="alert">&times;</button>
 					<strong>Thank you</strong> for your interest! Please mail to xyz@abc.com for registration!
-			</div><!-- Alert End -->
+			</div> <!-- alert end -->
+
+			<!-- Give Us a Call Well For XS-Devices -->
 
 			<div class="well well-sm visible-xs">
 				<button type="button" class="btn btn-lg btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</button>
-			</div><!-- Well For visible-xs End -->
+			</div> <!-- well for visible-xs end -->
+			
+			<!-- Sub-Header Well Below Carousel -->
 
 			<div class="well hidden-xs" id="myCallout">
 
@@ -125,9 +134,11 @@
 				</p>
 				<button type="button" class="btn btn-lg btn-primary" id="btnSignUp">Sign Up Now!</button>
 				<button type="button" class="btn btn-lg btn-link">or click here!</button>
-			</div><!-- Callout End -->
+			</div><!-- well callout End -->
 
-			<div class="container_fluid">
+			<!-- Hero Section -->
+
+			<div class="container-fluid">
 				<div class="row banner">
 					<div class="col-sm-12">
 						<div class="banner-content">
@@ -135,15 +146,15 @@
 							<p>Make better decisions faster - with a single, completely connected source of truth.</p>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div> <!-- row banner end -->
+			</div> <!-- container-fluid end -->
 
 			<div class="row">
 				<div class="col-sm-12">
 					<h3><strong>More Features</strong></h3>
 					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
 				</div>
-			</div>
+			</div> <!-- row end -->
 
 			<div class="row">
 				<div class="col-sm-4">
@@ -156,7 +167,7 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-success">Learn More!</button></div>
 						</div>
-					</div>
+					</div> <!-- panel end -->
 				</div>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
@@ -168,7 +179,7 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-danger">Join Now!</button></div>
 						</div>
-					</div>
+					</div> <!-- panel end -->
 				</div>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
@@ -180,23 +191,23 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-success">Learn More!</button></div>
 						</div>
-					</div>
-				</div>
-			</div>
+					</div> <!-- panel end -->
+				</div> <!-- col-sm-4 end -->
+			</div> <!-- row end -->
 
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="panel panel-default">
 						<div class="panel-heading text-center">
 							<div class="panel-title">Reasonable Pricing</div>
-						</div>
+						</div> 
 						<div class="panel-body">
 							<img src="img/portfolio4.svg" alt="Highly Customizable">
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-success">Learn More!</button></div>
 						</div>
-					</div>
-				</div>
+					</div> <!-- panel end -->
+				</div> <!-- col-sm-4 end -->
 				<div class="col-sm-4">
 					<div class="panel panel-default">
 						<div class="panel-heading text-center">
@@ -207,7 +218,7 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-danger">Join Now!</button></div>
 						</div>
-					</div>
+					</div> <!-- panel end -->
 				</div>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
@@ -219,10 +230,12 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-success">Learn More!</button></div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+					</div> <!-- panel end -->
+				</div> <!-- col-sm-4 -->
+			</div> <!-- row end -->
+		</div> <!-- container-fluid end -->
+
+		<!-- Footer Section -->
 
 		<footer>
 			<div class="container-fluid">
@@ -259,20 +272,9 @@
 					<div class="col-sm-2 text-nowrap">
 						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Akshay Arora</h6>
 					</div>
-				</div>
-			</div>
-		</footer>
-
-		<!--<div class="container">
-			<div class="well">
-				<h3 >Business Analytics Dashboard</h3>
-				<p>Realtime Data Refresh</p>
-			</div>
-		</div>
-		-->
-
-	
-		
+				</div> <!-- row end -->
+			</div> <!-- container-fluid end -->
+		</footer> <!-- footer end -->
 
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
 	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.js"><\/script>')</script>

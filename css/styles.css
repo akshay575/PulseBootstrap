@@ -68,19 +68,19 @@ body::-webkit-scrollbar-thumb
 }
 #slide1{
    background: url(../img/slide_large_01.jpg) top center no-repeat;
-   background-size: 1170px 502px;
+   background-size: cover;
 }
 #slide2{
    background: url(../img/slide_large_02.jpg) top center no-repeat;
-   background-size: 1170px 502px;
+   background-size: cover;
 }
 #slide3{
    background: url(../img/slide_large_03.jpg) top center no-repeat;
-   background-size: 1170px 502px;
+   background-size: cover;
 }
 #slide4{
    background: url(../img/slide_large_04.jpg) top center no-repeat;
-   background-size: 1170px 502px;
+   background-size: cover;
 }
 
 /** =myCallout
@@ -159,14 +159,13 @@ footer{
 
 /** CustomIds
  ---------------------------------------------------------*/
-#btnSubmitMsg{
-   margin-top: 10px;
+.submit-msg{
+  margin: 10px 10px auto;
 }
 .banner{
   background: url(../img/hero_banner.jpg) center center no-repeat;
   height: 500px;
   background-size: cover;
-  margin: 0;
 }
 .banner .banner-content{
   background-color: rgba(0, 0, 0, 0.5);

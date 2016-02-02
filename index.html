@@ -22,9 +22,10 @@
 		
 	</head>
 	<body>
+		<!-- Navigation Header -->
+
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
-
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-header" aria-expanded="false">
 						<span class="icon-bar"></span>
@@ -32,7 +33,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a href="#" class="navbar-brand">PULSE </a><img class="navbar-brand navbar-brand-logo" src="img/icon.svg" alt="Pulse Logo" >
-				</div>
+				</div> <!-- navbar-header end --> 
 				
 				<div class="collapse navbar-collapse navbar-responsive-collapse" id="main-header">
 					<ul class="nav navbar-nav navbar-left">
@@ -54,16 +55,20 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#"><strong>Login</strong></a></li>
 					</ul>
-					<form action="" class="navbar-form navbar-left" role="search">
+					<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Search">
 							<button type="button" class="btn btn-default" aria-label="Submit Search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
 						</div>
-					</form>
-				</div>
-			</div>
+					</form> <!-- navbar-form end -->
+				</div> <!-- navbar-collapse end -->
+			</div> <!-- container_fluid end -->
 		</nav><!-- Navbar End -->
+
 		<div class="container-fluid">
+
+			<!-- Carousel Slideshow -->
+
 			<div class="carousel slide" id="myCarousel" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -96,7 +101,7 @@
 							<p>This is just a sample headline for testing</p>
 						</div>
 					</div>
-				</div>
+				</div> <!-- carousel-inner end -->
 				<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
@@ -104,16 +109,20 @@
 				<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only"></span>
 				</a>
-			</div><!-- Carousel End -->
+			</div><!-- carousel end -->
 
 			<div class="alert alert-success alert-dismissible fade in" id="alertBox">
 					<button type="button" class="close" data-dismiss="alert">&times;</button>
 					<strong>Thank you</strong> for your interest! Please mail to xyz@abc.com for registration!
-			</div><!-- Alert End -->
+			</div> <!-- alert end -->
+
+			<!-- Give Us a Call Well For XS-Devices -->
 
 			<div class="well well-sm visible-xs">
 				<button type="button" class="btn btn-lg btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</button>
-			</div><!-- Well For visible-xs End -->
+			</div> <!-- well for visible-xs end -->
+			
+			<!-- Sub-Header Well Below Carousel -->
 
 			<div class="well hidden-xs" id="myCallout">
 
@@ -125,9 +134,11 @@
 				</p>
 				<button type="button" class="btn btn-lg btn-primary" id="btnSignUp">Sign Up Now!</button>
 				<button type="button" class="btn btn-lg btn-link">or click here!</button>
-			</div><!-- Callout End -->
+			</div><!-- well callout End -->
 
-			<div class="container_fluid">
+			<!-- Hero Section -->
+
+			<div class="container-fluid">
 				<div class="row banner">
 					<div class="col-sm-12">
 						<div class="banner-content">
@@ -135,15 +146,15 @@
 							<p>Make better decisions faster - with a single, completely connected source of truth.</p>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div> <!-- row banner end -->
+			</div> <!-- container-fluid end -->
 
 			<div class="row">
 				<div class="col-sm-12">
 					<h3><strong>More Features</strong></h3>
 					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
 				</div>
-			</div>
+			</div> <!-- row end -->
 
 			<div class="row">
 				<div class="col-sm-4">
@@ -156,7 +167,7 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-success">Learn More!</button></div>
 						</div>
-					</div>
+					</div> <!-- panel end -->
 				</div>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
@@ -168,7 +179,7 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-danger">Join Now!</button></div>
 						</div>
-					</div>
+					</div> <!-- panel end -->
 				</div>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
@@ -180,86 +191,82 @@
 							<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 							<div class="text-center"><button type="button" class="btn btn-success">Learn More!</button></div>
 						</div>
-					</div>
+					</div> <!-- panel end -->
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-sm-6">
 					<h3>Contact Us</h3>
-					<div>
-						<ul class="nav nav-tabs">
-							<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-							<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-						</ul>
-						<div class="tab-content">
-							<div class="tab-pane active" id="tab1">
-								<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location <small>Kormangala, Bangalore Office</small></h4>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+						<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location <small>Kormangala, Bangalore Office</small></h4>
 
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5681128308515!2d77.61172481439172!3d12.93545661917127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1454047230592" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5681128308515!2d77.61172481439172!3d12.93545661917127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1454047230592" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
-							</div>
-							<div class="tab-pane" id="tab2">
-								<h4>Space Available For Advertisement</h4>
-								<img src="http://placehold.it/140" alt="Advertisement" class="thumbnail pull-left">
-								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
-								<hr>
-								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal">Click here to Contact Us!</a>
-								
-								<div class="modal fade" id="myModal">
-									<div class="modal-dialog">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
-												<h4>Mail Us!</h4>
-											</div>
-											<div class="modal-body">
-												<h4>Please fill the below form.</h4>
-												<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
+						</div> <!-- tab1 end -->
+						<div class="tab-pane" id="tab2">
+							<h4>Space Available For Advertisement</h4>
+							<img src="http://placehold.it/140" alt="Advertisement" class="thumbnail pull-left">
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
+							<hr>
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal">Click here to Contact Us!</a>
+							
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4>Mail Us!</h4>
+										</div> <!-- modal-header end -->
+										<div class="modal-body">
+											<h4>Please fill the below form.</h4>
+											<p class="text-justify">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
 
-												<a href="#" class="btn btn-default pop" data-toggle="popover" data-placement="top" data-original-title="Hey!" data-content="This is a popover!">Click Me!</a>
+											<a href="#" class="btn btn-default pop" data-toggle="popover" data-placement="top" data-original-title="Hey!" data-content="This is a popover!">Click Me!</a>
 
-												<hr>
-												<p class="text-muted"><small>This is just a demo form.</small></p>
-
-												<form class="form-horizontal">
-													<div class="form-group">
-														<label for="" class="col-sm-3 control-label" data-original-title="Akshay Arora" rel="tooltip">Your Name</label>
-														<div class="col-sm-9">
-															<input type="text" class="form-control" placeholder="Name" type="text">
-														</div>
+											<hr>
+											
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label for="" class="col-sm-3 control-label" data-original-title="Akshay Arora" rel="tooltip">Your Name</label>
+													<div class="col-sm-9">
+														<input type="text" class="form-control" placeholder="Name" type="text">
 													</div>
+												</div>
 
-													<div class="form-group">
-														<label for="" class="col-sm-3 control-label" data-original-title="you@xyz.com" rel="tooltip">Your Email</label>
-														<div class="col-sm-9">
-															<input type="email" class="form-control" placeholder="Email">
-														</div>
+												<div class="form-group">
+													<label for="" class="col-sm-3 control-label" data-original-title="you@xyz.com" rel="tooltip">Your Email</label>
+													<div class="col-sm-9">
+														<input type="email" class="form-control" placeholder="Email">
 													</div>
+												</div>
 
-													<div class="form-group">
-														<label for="" class="col-sm-3 control-label">Message</label>
-														<div class="col-sm-9">
-															<textarea id="txtMsg" rows="4" class="form-control" rows="3" placeholder="Type your message here..."></textarea>
-															<button id="btnSubmitMsg" type="button" class="btn btn-success pull-right">Submit Changes</button>
-														</div>
+												<div class="form-group">
+													<label for="" class="col-sm-3 control-label">Message</label>
+													<div class="col-sm-9">
+														<textarea id="txtMsg" rows="4" class="form-control" rows="3" placeholder="Type your message here..."></textarea>
+														<button type="button" class="btn btn-success pull-right submit-msg">Submit Changes</button>
+														<button type="button" class="btn btn-default pull-right submit-msg" data-dismiss="modal">Close</button>
 													</div>
-													
-												</form>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-												<button type="button" class="btn btn-primary">Save Changes</button>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
+												</div>
+												
+											</form> <!-- form-horizontal end -->
+										</div> <!-- modal-body end -->
+										<div class="modal-footer">
+											<p class="text-muted"><small>This is just a demo form.</small></p>
+										</div> <!-- modal-footer end -->
+									</div> <!-- modal-content end -->
+								</div> <!-- modal-dialog end -->
+							</div> <!-- modal end -->
+						</div> <!-- tab2 end -->
+					</div> <!-- tab-content end -->
+				</div> <!-- col-sm-6 end -->
 				<div class="col-sm-6">
 					<h3>About Us</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque.</p>
@@ -276,10 +283,11 @@
 							<h4 class="list-group-item-heading">What We Do</h4>
 							<p class="list-group-item-text">We take your business to the next high level. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
 						</a>
-					</div>
-				</div>
-			</div>
-
+					</div> <!-- list-group end -->
+				</div> <!-- col-sm-6 end -->
+			</div> <!-- row end -->
+		
+			<!-- Horizontal Line Break -->
 			<hr>
 
 			<div class="row">
@@ -295,9 +303,9 @@
 									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque.</p>
 									<a href="#" class="btn btn-primary btn-sm">Join Now!</a>
 									<a href="#" class="btn btn-sm btn-link">Learn More!</a>
-								</div>
-							</div>
-						</div>
+								</div> <!-- caption end -->
+							</div> <!-- thumbnail end -->
+						</div> <!-- col-sm-6 end -->
 						<div class="col-sm-6">
 							<div class="thumbnail"><img src="img/chart4.svg" alt="Inspiring Stories">
 								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> NEW</div>
@@ -306,13 +314,15 @@
 									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque.</p>
 									<a href="#" class="btn btn-sm btn-primary">Join Now!</a>
 									<a href="#" class="btn btn-sm btn-link">Learn More!</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+								</div> <!-- caption end -->
+							</div> <!-- thumbnail end -->
+						</div> <!-- col-sm-6 end -->
+					</div> <!-- row end -->
+				</div> <!-- col-sm-12 -->
+			</div> <!-- row -->
+		</div> <!-- container-fluid end -->
+
+		<!-- Footer Section -->
 
 		<footer>
 			<div class="container-fluid"> 
@@ -349,20 +359,9 @@
 					<div class="col-sm-2 text-nowrap">
 						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Akshay Arora</h6>
 					</div>
-				</div>
-			</div>
-		</footer>
-
-		<!--<div class="container">
-			<div class="well">
-				<h3 >Business Analytics Dashboard</h3>
-				<p>Realtime Data Refresh</p>
-			</div>
-		</div>
-		-->
-
-	
-		
+				</div> <!-- row end -->
+			</div> <!-- container-fluid end -->
+		</footer> <!-- footer end -->
 
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
 	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.js"><\/script>')</script>
